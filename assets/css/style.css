@@ -100,7 +100,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   :root { --container: 1600px; --fs-3xl: clamp(4.5rem, 2rem + 8vw, 8rem); }
   html { font-size: 19px; }
   .service-icon { width: 64px; height: 64px; }
-  .brand img { height: 62px; }
+  .brand img { height: 80px; }
 }
 @media (min-width: 2800px) {
   /* very large / TV-class displays viewed from a distance */
@@ -256,7 +256,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .brand { display: flex; align-items: center; gap: 0.85rem; flex-shrink: 0; }
 .brand-mark { display: block; line-height: 0; }
-.brand img { height: 56px; width: auto; display: block; }
+.brand img { height: 72px; width: auto; display: block; }
 .brand-word { display: flex; flex-direction: column; line-height: 1.15; flex-shrink: 0; }
 .brand-word strong {
   font-family: var(--font-display);
@@ -332,7 +332,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 @media (max-width: 374.98px) {
   .brand-word span { display: none; }
-  .brand img { height: 46px; }
+  .brand img { height: 54px; }
 }
 
 .mobile-nav {
@@ -664,7 +664,7 @@ section { position: relative; padding-block: var(--sp-7); }
 .site-footer { background: var(--obsidian-2); border-top: var(--border-hair); padding-block: var(--sp-6) var(--sp-4); }
 .footer-grid { display: grid; grid-template-columns: 1fr; gap: var(--sp-5); }
 @media (min-width: 860px) { .footer-grid { grid-template-columns: 1.3fr 1fr 1fr; } }
-.footer-brand img { height: 52px; margin-bottom: var(--sp-2); }
+.footer-brand img { height: 68px; margin-bottom: var(--sp-2); }
 .footer-brand p { color: var(--porcelain-faint); font-size: var(--fs-sm); max-width: 34ch; }
 .footer-col h4 { font-family: var(--font-display); font-weight: 400; font-size: 1.1rem; color: var(--porcelain); margin-bottom: var(--sp-2); }
 .footer-col a, .footer-col p { display: block; color: var(--porcelain-dim); font-size: var(--fs-sm); padding-block: 0.35rem; }
