@@ -568,7 +568,7 @@ section { position: relative; padding-block: var(--sp-7); }
 @media (min-width: 992px) { .gallery-strip { grid-auto-columns: 30%; margin-inline: calc(var(--sp-5) * -1); padding-inline: var(--sp-5); } }
 .gallery-item { scroll-snap-align: start; }
 .gallery-item .framed { aspect-ratio: 3/4; border: var(--border-hair); }
-.gallery-item .cap { display: flex; justify-content: space-between; padding-top: 0.7rem; font-size: var(--fs-xs); color: var(--porcelain-faint); letter-spacing: 0.04em; }
+.gallery-item .cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.15em 0.6em; padding-top: 0.7rem; font-size: var(--fs-xs); color: var(--porcelain-faint); letter-spacing: 0.04em; }
 .gallery-item .cap b { color: var(--gold); font-weight: 600; }
 
 /* ---------- Testimonials ---------- */
