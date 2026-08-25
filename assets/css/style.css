@@ -101,6 +101,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   html { font-size: 19px; }
   .service-icon { width: 64px; height: 64px; }
   .brand img { height: 128px; }
+  .footer-brand img { height: 128px; }
 }
 @media (min-width: 2800px) {
   /* very large / TV-class displays viewed from a distance */
@@ -334,6 +335,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 @media (max-width: 374.98px) {
   .brand-word span { display: none; }
   .brand img { height: 78px; }
+  .footer-brand img { height: 78px; }
 }
 
 .mobile-nav {
