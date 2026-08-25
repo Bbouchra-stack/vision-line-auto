@@ -666,7 +666,7 @@ section { position: relative; padding-block: var(--sp-7); }
 .footer-grid { display: grid; grid-template-columns: 1fr; gap: var(--sp-5); }
 @media (min-width: 860px) { .footer-grid { grid-template-columns: 1.3fr 1fr 1fr; } }
 .footer-brand-top { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: var(--sp-2); }
-.footer-brand img { height: 106px; margin-bottom: 0; }
+.footer-brand img { height: 112px; margin-bottom: 0; }
 .footer-brand p { color: var(--porcelain-faint); font-size: var(--fs-sm); max-width: 34ch; }
 .footer-col h4 { font-family: var(--font-display); font-weight: 400; font-size: 1.1rem; color: var(--porcelain); margin-bottom: var(--sp-2); }
 .footer-col a, .footer-col p { display: block; color: var(--porcelain-dim); font-size: var(--fs-sm); padding-block: 0.35rem; }
