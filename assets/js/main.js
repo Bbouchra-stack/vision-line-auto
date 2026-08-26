@@ -40,7 +40,7 @@
 
   /* ---------- Scroll reveal (IntersectionObserver) ---------- */
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var revealTargets = $$(".reveal, .reveal-stagger, [data-thread]");
+  var revealTargets = $$(".reveal, .reveal-stagger, .photo-reveal, [data-thread]");
   if (reduceMotion) {
     revealTargets.forEach(function (el) { el.classList.add("in-view"); });
   } else if ("IntersectionObserver" in window) {
