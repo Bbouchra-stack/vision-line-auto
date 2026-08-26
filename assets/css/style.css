@@ -517,6 +517,34 @@ section { position: relative; padding-block: var(--sp-7); }
 .service-photo { aspect-ratio: 4/5; margin-bottom: var(--sp-4); border: var(--border-hair); }
 .service-photo img { filter: saturate(0.92); }
 .service-card:hover .service-photo img { transform: scale(1.045); }
+
+/* Orbit dot: a small gold ball travelling once around the inside edge of
+   each service frame — a quiet, continuous accent echoing "Le Filet d'Or". */
+.orbit-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold-bright);
+  box-shadow: 0 0 6px 1px rgba(240, 200, 120, 0.65);
+  top: 0;
+  left: 0;
+  animation: orbit-frame 8s linear infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+.service-card:nth-child(2) .orbit-dot { animation-delay: -2.6s; }
+.service-card:nth-child(3) .orbit-dot { animation-delay: -5.2s; }
+@keyframes orbit-frame {
+  0%   { top: 0; left: 0; }
+  25%  { top: 0; left: calc(100% - 6px); }
+  50%  { top: calc(100% - 6px); left: calc(100% - 6px); }
+  75%  { top: calc(100% - 6px); left: 0; }
+  100% { top: 0; left: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .orbit-dot { display: none; }
+}
 .service-icon {
   width: 56px; height: 56px;
   display: flex; align-items: center; justify-content: center;
