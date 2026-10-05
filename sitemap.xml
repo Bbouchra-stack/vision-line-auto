@@ -17,4 +17,20 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://visionlineauto.ma/politique-cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionlineauto.ma/politique-cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionlineauto.ma/ar/politique-cookies.html"/>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://visionlineauto.ma/ar/politique-cookies.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://visionlineauto.ma/politique-cookies.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visionlineauto.ma/ar/politique-cookies.html"/>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
